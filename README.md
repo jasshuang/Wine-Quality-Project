@@ -2,12 +2,19 @@
 
 Do you want to learn about what makes high-quality red wine and white wine from the physicochemical perspective? In this project, we use the data sources from Paulo Cortez, University of Minho, Guimarães, Portugal to execute an in-depth analysis of both types of wines(red and white) to figure out what attributes make the difference between high-quality wine and low-quality wine.
 
+
 ## Table of Contents
+
 -Data Set & Hypothesis
+
 -Process
+
 -High/Low Quality Red Wines
+
 -High/Low Quality White Wines
+
 -Red Wine vs White Wine
+
 -Conclusion 
 
 ## Data Set & Hypothesis
@@ -19,12 +26,16 @@ Data Set: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
 
 ## Process
 
-
+![Process](Image/process.jpg)
 
 ## High/Low-Quality Red Wines
+![Process](Image/heatmap-red.jpg)
 
+
+![Process](Image/bar-red.jpg)
 
 ## High/Low-Quality White Wines
+![Process](Image/heatmap-white.jpg)
 
 This heatmap visualizes the strength of relationships between the attributes.  The values in the cells indicate the strength of the relationship, with positive values indicating a positive relationship and negative values indicating a negative relationship. The color-coding of the cells makes it easy to identify relationships between variables at a glance. Darker colors represent the negative correlation and lighter colors represent the positive correlation. 
 So from this heatmap, we can see there is an obvious negative correlation that is the Density and Alcohol. The more alcohol a wine contains decreases the overall density of the wine. So a comparison between alcohol level and density shows an inverse relationship.
@@ -33,6 +44,7 @@ The attributes that have obvious positive correlation are:
 2. Total Sulfur Dioxide & Free Sulfur Dioxide: (0.62) Total Sulfur Dioxide contains Free Sulfur Dioxide and Bond Sulfur Dioxide. They prevent microbial growth and the oxidation of the wine. Since free sulfur dioxide is a part of the total sulfur dioxide, it makes sense that they have a positive correlation.
 3. Density & Total Sulfur Dioxide: (0.53) The heatmap also shows a positive correlation between density and total sulfur dioxide. This means the higher the total sulfur dioxide, the higher the density is.
 
+![Process](Image/bar-white.jpg)
 
 This part is the bar chart of the high-quality and low-quality white wine comparison. The purple bars represent high-quality white wine. The teal bars represent the low-quality white wine. 
 The attributes that don't show obvious differences between high-quality and low-quality white wine according to this bar chart are: Volatile acidity, Citric Acid, Density, pH, and Sulphates
@@ -45,19 +57,31 @@ High-quality white wine has slightly more alcohol: In fact, alcohol content affe
 
 ## Red Wine vs White Wine
 
+![Process](Image/bar-high.jpg)
 
 
 ATTRIBUTES OF HIGH-QUALITY WINE
+
 Free Sulfur Range: 30%-40% Average
+
 Total Sulfur Range: 120%-140% Average
+
 Residual Sugar Range: 5%-10% Average
+
 Alcohol Range: 10%-15% Average
 
+![Process](Image/bar-low.jpg)
+
 ATTRIBUTES OF LOW-QUALITY WINE
+
 Free Sulfur Range: 15%-20% Average
+
 Total Sulfur Range: 50%-60% Average
+
 Residual Sugar Range: 1%-5% Average
+
 Alcohol Range: 10%-15% Average
+
 
 ## Limitations and Conclusion
 ### Limitations
