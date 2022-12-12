@@ -42,8 +42,8 @@ High-quality white wine has more residual sugar: The more residual sugar remaini
 High-quality white wine has less fixed acidity: A wine with high acid will usually taste crisper and more tart on the palate. A low-acid wine will feel smoother and rounder on the palate. So we can infer that when evaluating the white wine, they consider the smoothness of the texture of the wine. That's why higher-quality white wine has lower fixed acidity according to our analysis.
 High-quality white wine has slightly more alcohol: In fact, alcohol content affects a wine's body. A wine with a higher alcohol content will have a fuller, richer body, while a lower-alcohol wine will taste lighter and more delicate on the palate. 
 
-```diff
-- ## Red Wine vs White Wine
+
+## Red Wine vs White Wine
 
 
 
