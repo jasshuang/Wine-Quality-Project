@@ -8,9 +8,15 @@ Do you want to learn about what makes high-quality red wine and white wine from 
 ## Dependicies
 
 ```
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
+import os
+import numpy as np
 import seaborn as sb
+import csv
+import requests
+import json
+import math
 ```
 
 ## Table of Contents
