@@ -1,9 +1,17 @@
 # Project: Wine Quality(Red Wine and White Wine)
 
-![Process](Image/red_white.jpg)
+![Wine](Image/red_white.jpg)
 
 Do you want to learn about what makes high-quality red wine and white wine from the physicochemical perspective? In this project, we use the data sources from Paulo Cortez, University of Minho, Guimarães, Portugal to execute an in-depth analysis of both types of wines(red and white) to figure out what attributes make the difference between high-quality wine and low-quality wine.
 
+
+## Dependicies
+
+```
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sb
+```
 
 ## Table of Contents
 
@@ -33,32 +41,47 @@ Data Set: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
 ## High/Low-Quality Red Wines
 ![heatmap-red](Image/heatmap-red.jpg)
 
-** Negative Correlation (Closer to -1)** 
+**Negative Correlation (Closer to -1)**
+
 Fixed Acidity  and pH
+
 -0.68
+
 Citric Acid and pH
+
 -0.54
+
 Citric Acid and Volatile Acidity
+
 -0.55
-Positive Correlation (Closer to +1)
+
+
+**Positive Correlation (Closer to +1)**
+
 Density and Fixed Acidity
+
 0.67
+
 Citric Acid and Fixed Acidity
+
 0.67
+
 Total Sulfur Dioxide and Free Sulfur Dioxide
+
 0.67
 
 
 
 ![bar-red](Image/bar-red.jpg)
 
-** ATTRIBUTE VARIANCE OF RED WINE**
+**ATTRIBUTE VARIANCE OF RED WINE**
+
 * Free Sulfur 
 * Total Sulfur 
 * Residual Sugar
 * Fixed Acidity
 
-** Comparison between high and low red wine: **
+**Comparison between high and low red wine:**
 * More sulfur present for high quality
 * More residual sugar for high quality
 * Alcohol and pH is equal
