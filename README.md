@@ -5,7 +5,7 @@
 Do you want to learn about what makes high-quality red wine and white wine from the physicochemical perspective? In this project, we use the data sources from Paulo Cortez, University of Minho, Guimarães, Portugal to execute an in-depth analysis of both types of wines(red and white) to figure out what attributes make the difference between high-quality wine and low-quality wine.
 
 
-## Dependicies
+## Dependencies
 
 ```
 import matplotlib.pyplot as plt
